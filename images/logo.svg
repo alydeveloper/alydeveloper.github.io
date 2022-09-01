@@ -1,7 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="149.167px" height="172.243px" viewBox="0 0 149.167 172.243" enable-background="new 0 0 149.167 172.243"
-	 xml:space="preserve">
-<path fill="#FFFFFF" d="M131.231 97.6233L17.0708 142.252L17.0708 124.674L110.333 89.3225L17.0708 54.0686L17.0708 36.4905L131.231 81.2171L131.231 97.6233Z"/>
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 149.167 172.243" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<clipPath id="TextBounds">
+<rect height="122.23" width="135.343" x="15.9718" y="11.2424"/>
+</clipPath>
+</defs>
+<g id="Layer-1" vectornator:layerName="Layer 1">
+<path d="M74.5512 165.358L5.31607 125.385L5.31607 45.4394L74.5512 5.46652L143.786 45.4394L143.786 125.385L74.5512 165.358Z" fill="#141414" fill-rule="nonzero" opacity="1" stroke="#303030" stroke-linecap="butt" stroke-linejoin="round" stroke-width="10"/>
+<g fill="#ffffff" opacity="1" stroke="none">
+<path clip-path="url(#TextBounds)" d="M75.9191 86.8557L18.839 109.17L18.839 100.381L65.4699 82.7053L18.839 65.0783L18.839 56.2893L75.9191 78.6525L75.9191 86.8557Z"/>
+<path clip-path="url(#TextBounds)" d="M75.8703 120.742L75.8703 115.811L131.485 115.811L131.485 120.742L75.8703 120.742Z"/>
+</g>
+</g>
 </svg>
