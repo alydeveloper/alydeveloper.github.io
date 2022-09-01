@@ -61,31 +61,31 @@ nav {
 
 nav h1 {
     color: var(--primary-color);
-  }
+}
   
-  nav a {
+nav a {
     color: var(--primary-color);
     transition: var(--transition);
-  }
-  nav a:hover {
+}
+nav a:hover {
     color: var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
-  }
+}
   
-  nav ul {
+nav ul {
     display: flex;
     gap: 1.9rem;
-  }
+}
   
-  nav ul li {
+nav ul li {
     font-weight: var(--bold-font);
-  }
+}
 
-  .phone-menu {
+.burger-menu {
     color: var(--primary-color);
     font-size: 2rem;
     border: 0;
     background-color: transparent;
     cursor: pointer;
     display: none;
-  }
+}
