@@ -100,17 +100,3 @@ nav ul li {
     max-width: 68.75rem;
     margin: auto;
   }
-  
-  .intro {
-    width: 25rem;
-    padding: 0.625rem;
-  }
-  
-  .intro h1 {
-    margin-bottom: var(--bottom-margin);
-  }
-  
-  .intro p {
-    line-height: var(--line-height);
-    padding: 0.3rem 0;
-  }
