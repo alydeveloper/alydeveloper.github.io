@@ -106,18 +106,18 @@ nav ul li {
     width: 37.5rem;
   }
   
-  .bio {
+  .about {
     width: 25rem;
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   }
   
-  .bio h1 {
+  .about h1 {
     margin-bottom: var(--bottom-margin);
   }
   
-  .bio p {
+  .about p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
   }
