@@ -107,7 +107,7 @@ nav ul li {
   }
 
   .pages {
-    background-color: #9CD095;
+    background-color: #B8DEB4;
     padding: 32px 0;
     margin-top: 2rem;
   }
@@ -142,7 +142,7 @@ nav ul li {
   }
   
   .page-card {
-    background-color: #9CD095;
+    background-color: #B8DEB4;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
