@@ -156,15 +156,6 @@ nav ul li {
     margin: 2rem 0 0;
   }
 
-  .footerstuff {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
-    max-width: 68.75rem;
-    margin: auto;
-  }
-
   .contact {
     margin-top: 2rem;
   }
@@ -226,5 +217,3 @@ nav ul li {
     border: 2px solid var(--primary-color);
     cursor: pointer;
   }
-
-  
