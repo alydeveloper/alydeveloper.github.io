@@ -92,11 +92,17 @@ nav ul li {
     display: none;
 }
 
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
-    max-width: 68.75rem;
-    margin: auto;
+.intro {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+  }
+  
+  .intro h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+  }
+  
+  .intro p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
   }
