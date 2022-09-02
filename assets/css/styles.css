@@ -6,7 +6,7 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #D4DCE9;
+  --bg-color: #EAEDF4;
   --primary-color: #5372A5;
   --secondary-color: #1C3764;
   --primary-shadow: #BFCADD;
@@ -107,7 +107,7 @@ nav ul li {
   }
 
   .pages {
-    background-color: #BFCADD;
+    background-color: #EAEDF4;
     padding: 32px 0;
     margin-top: 2rem;
   }
