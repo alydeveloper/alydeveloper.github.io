@@ -92,7 +92,7 @@ nav ul li {
     display: none;
 }
 
-.intro {
+  .intro {
     background-color: var(--bg-color);
     padding: 1rem 6rem;
   }
@@ -113,7 +113,7 @@ nav ul li {
     margin-top: 2rem;
   }
   
-  .pages-pic {
+  .page-pic {
     width: 65%;
     height: 60%;
   }
@@ -129,25 +129,25 @@ nav ul li {
     margin-bottom: 1rem;
   }
   
-  .pages-container {
+  .page-container {
     text-align: center;
     width: 21.875rem;
     padding: 1rem;
   }
 
-  .pages-container p {
+  .page-container p {
     padding: 0.4rem;
   }
   
-  .pages-title {
+  .page-title {
     margin-bottom: var(--bottom-margin);
   }
   
-  .pages-details {
+  .page-details {
     margin-bottom: var(--bottom-margin);
   }
   
-  .pages-card {
+  .page-card {
     background-color: #fff;
     border-radius: 11px;
     box-shadow: 0 3px 10px var(--primary-shadow);
