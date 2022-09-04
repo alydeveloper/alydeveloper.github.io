@@ -221,3 +221,10 @@ nav ul li {
     border: 2px solid var(--primary-color);
     cursor: pointer;
   }
+
+  .copyright {
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+  }
