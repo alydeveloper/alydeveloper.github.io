@@ -150,7 +150,7 @@ nav ul li {
   }
 
   footer {
-    background-color: var(--bg-color);
+    background-color: #D4DCE9;
     padding: 1.25rem;
     text-align: left;
     margin: 0 0 0;
@@ -170,7 +170,7 @@ nav ul li {
     margin: 0 auto;
     padding: 0.938rem;
     border-radius: 5px;
-    box-shadow: 0 3px 10px var(--bg-color);
+    box-shadow: 0 3px 10px #D4DCE9;
   }
 
   .contact-form-container label {
