@@ -135,8 +135,8 @@ nav ul li {
   }
   
   .page-title {
+    margin-top: 10rem;
     font-size: 50px;
-    margin-bottom: var(--bottom-margin);
   }
   
   .page-details {
