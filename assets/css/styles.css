@@ -152,7 +152,7 @@ nav ul li {
   footer {
     background-color: var(--bg-color);
     padding: 1.25rem;
-    text-align: center;
+    text-align: left;
     margin: 0 0 0;
   }
 
@@ -161,7 +161,7 @@ nav ul li {
   }
   
   .contact h2 {
-    text-align: center;
+    text-align: left;
     margin-bottom: var(--bottom-margin-2);
   }
   
