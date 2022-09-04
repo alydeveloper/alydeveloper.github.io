@@ -168,7 +168,7 @@ nav ul li {
   .contact-form-container {
     float: left;
     max-width: 40.75rem;
-    margin: 0 auto;
+    margin-left: 10px;
     padding: 0.938rem;
     border-radius: 5px;
     box-shadow: 0 3px 10px #D4DCE9;
