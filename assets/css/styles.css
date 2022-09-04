@@ -98,10 +98,12 @@ nav ul li {
   }
   
   .intro h2 {
+    font-size: 60px;
     margin-bottom: var(--bottom-margin);
   }
   
   .intro p {
+    font-size: 20px;
     line-height: var(--line-height);
     padding: 0.4rem;
   }
