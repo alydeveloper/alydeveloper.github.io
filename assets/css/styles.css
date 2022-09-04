@@ -140,6 +140,7 @@ nav ul li {
   }
   
   .page-details {
+    font-size: 25px;
     margin-bottom: var(--bottom-margin);
   }
   
