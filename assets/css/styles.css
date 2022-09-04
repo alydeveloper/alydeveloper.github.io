@@ -166,6 +166,7 @@ nav ul li {
   }
   
   .contact-form-container {
+    float: left;
     max-width: 40.75rem;
     margin: 0 auto;
     padding: 0.938rem;
