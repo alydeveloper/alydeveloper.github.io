@@ -160,6 +160,15 @@ nav ul li {
     margin: 0 0 0;
   }
 
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+  }
+
   .contact {
     margin-top: 2rem;
   }
