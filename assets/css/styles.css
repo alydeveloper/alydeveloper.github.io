@@ -237,6 +237,15 @@ nav ul li {
     margin: 20rem 0 0;
   }
 
+  .socials {
+    margin-top: 2rem;
+  }
+  
+  .socials h2 {
+    text-align: left;
+    margin-bottom: var(--bottom-margin-2);
+  }
+
   .row {
     display: flex;
   }
