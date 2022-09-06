@@ -234,6 +234,11 @@ nav ul li {
     margin: 2rem;
   }
 
+  .copyright p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
   .socials {
     margin-top: 2rem;
   }
