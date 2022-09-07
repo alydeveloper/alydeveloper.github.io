@@ -240,7 +240,9 @@ nav ul li {
   }
 
   .socials {
+    align-self: initial;
     margin-top: 1rem;
+    padding: 0px 0px;
   }
   
   .socials h2 {
