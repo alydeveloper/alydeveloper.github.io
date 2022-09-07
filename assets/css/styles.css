@@ -256,3 +256,8 @@ nav ul li {
     flex: 25%;
     padding: 5px;
   }
+
+  .divider {
+    border-left: 6px solid #9aa4b5;
+    height: 500px;
+  }
