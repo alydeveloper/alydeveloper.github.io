@@ -230,16 +230,6 @@ nav ul li {
     cursor: pointer;
   }
 
-  .copyright {
-    align-items: center;
-    margin: auto;
-  }
-
-  .copyright p {
-    text-align: center;
-    font-size: 1rem;
-  }
-
   .socials {
     align-self: initial;
     margin-top: 1rem;
