@@ -256,3 +256,15 @@ nav ul li {
     border-left: 6px solid #9aa4b5;
     height: 500px;
   }
+
+  .scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+  
+  .up-arrow {
+    width: 3rem;
+    height: 3rem;
+  }
