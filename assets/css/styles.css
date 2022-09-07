@@ -231,6 +231,7 @@ nav ul li {
   }
 
   .copyright {
+    align-items: center;
     margin: auto;
   }
 
