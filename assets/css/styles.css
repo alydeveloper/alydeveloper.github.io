@@ -202,8 +202,8 @@ nav ul li {
     padding-bottom: 10px;
     border-radius: 5px;
     border-width: 2px;
-    border-color: #D4DCE9;
-    border-style: hidden hidden ridge hidden;
+    border-color: #9aa4b5;
+    border-style: hidden hidden solid hidden;
     font-size: 0.875rem;
     outline: none;
   }
