@@ -6,18 +6,31 @@ import { Box, styled } from '@mui/material';
 
 const Header = () => {
   const FlexBox = styled(Box)({
-    margin: '1vw 2vw',
-    width: '96vw',
+    width: '98vw',
+    height: '5vh',
+    padding: '1%',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
+    backgroundColor: '#9AB1EA',
   });
 
-  return <FlexBox>
+  return <FlexBox >
     <Link to='/dashboard'>
-        this
+        Alyssa Lubrano
     </Link>
-    a, b, c, d
+    <Link to='/about'>
+        About Me
+    </Link>
+    <Link to='/languages'>
+        Languages
+    </Link>
+    <Link to='/projects'>
+        Projects
+    </Link>
+    <Link to='/contact'>
+        Contact Me
+    </Link>
   </FlexBox>
 };
 
