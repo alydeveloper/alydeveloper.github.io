@@ -5,33 +5,34 @@ import { Link } from 'react-router-dom';
 import { Box, styled } from '@mui/material';
 
 const Header = () => {
-  const FlexBox = styled(Box)({
-    width: '98vw',
-    height: '5vh',
-    padding: '1%',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    backgroundColor: '#9AB1EA',
-  });
+    const FlexBox = styled(Box)({
+        padding: '1.5vw 2vw',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        fontSize: '2.7vh',
+    });
 
-  return <FlexBox >
-    <Link to='/dashboard'>
-        Alyssa Lubrano
-    </Link>
-    <Link to='/about'>
-        About Me
-    </Link>
-    <Link to='/languages'>
-        Languages
-    </Link>
-    <Link to='/projects'>
-        Projects
-    </Link>
-    <Link to='/contact'>
-        Contact Me
-    </Link>
-  </FlexBox>
+    const LeftBox = styled(Box) ({
+        display: 'flex',
+    });
+
+    const RightBox = styled(Box) ({
+        justifyContent: 'space-between',
+        display: 'flex',
+        columnGap: '2vw'
+    });
+
+    return <FlexBox>
+        <LeftBox>
+            <Link to='/home' style={{ textDecoration: 'none', color: 'inherit', }}>Alyssa Lubrano</Link>
+        </LeftBox>
+        <RightBox>
+            <Link to='/about' style={{ textDecoration: 'none', color: 'inherit', }}>About</Link>
+            <Link to='/skills' style={{ textDecoration: 'none', color: 'inherit', }}>Skills</Link>
+            <Link to='/projects' style={{ textDecoration: 'none', color: 'inherit', }}>Projects</Link>
+        </RightBox>
+    </FlexBox>
 };
 
 export default Header;

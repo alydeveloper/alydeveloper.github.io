@@ -3,16 +3,15 @@ import { useNavigate } from 'react-router-dom';
 
 import { CircularProgress, Container } from '@mui/material';
 
-
 const Landing = () => {
-  const navigate = useNavigate();
+    const navigate = useNavigate();
 
-  React.useEffect(() => {
-    navigate('/dashboard');
-  }, [navigate]);
+    React.useEffect(() => {
+        navigate('/home');
+    }, []);
 
-  return <Container>
-      <CircularProgress />
+    return <Container>
+        <CircularProgress />
     </Container>
 };
 
