@@ -70,7 +70,7 @@ const Home = () => {
                 <CardHolders> 
                     {cardData.map((card) => (
                         <>
-                            <Card sx={{ backgroundColor: '#D7E3FC', width : '10vw', height : '10vw', justifyContent : 'center', alignItems : 'center', display : 'flex'}} onMouseEnter={() => sethoveredCard(card.id)} onMouseLeave={() => sethoveredCard(null)} onClick={() => setclickedCard(card.id)}>
+                            <Card sx={{ backgroundColor: '#D7E3FC', width : '10vw', height : '10vw', justifyContent : 'center', alignItems : 'center', display : 'flex', cursor: 'pointer'}} onMouseEnter={() => sethoveredCard(card.id)} onMouseLeave={() => sethoveredCard(null)} onClick={() => setclickedCard(card.id)}>
                                 {hoveredCard === card.id ?
                                 (<CardContent>{card.name}</CardContent>
                                 ) : (

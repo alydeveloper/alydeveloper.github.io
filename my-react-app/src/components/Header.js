@@ -26,7 +26,6 @@ const Header = () => {
     return <FlexBox>
         <LeftBox>
             <Link to='/home' style={{ textDecoration: 'none', color: 'inherit', }}>Alyssa Lubrano</Link>
-            <Link to='/testing' style={{ textDecoration: 'none', color: 'inherit', }}>TESTING</Link>
         </LeftBox>
         <RightBox>
             <Link to='/about' style={{ textDecoration: 'none', color: 'inherit', }}>About</Link>
