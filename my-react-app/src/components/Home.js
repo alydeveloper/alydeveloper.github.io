@@ -9,7 +9,8 @@ import linkedinLogo from '../Images/linkedin.png';
 import gmailLogo from '../Images/gmail.png';
 import resumeLogo from '../Images/resume.png';
 import githubLogo from '../Images/github.png';
-import Resume from '../documents/Alyssa_Lubrano_Resume.pdf'
+import Resume from '../documents/Alyssa_Lubrano_Resume.pdf';
+
 
 const Home = () => {
     const [openResume, setopenResume] = useState(false);

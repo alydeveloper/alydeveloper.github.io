@@ -14,8 +14,8 @@ import Paper from '@mui/material/Paper';
 const Projects = () => {
 
     const projects = [
-        {name: 'This Website!', description: 'ta da! :)', height: '20vh'},
-        {name: 'Productivity App', description: 'This app combines all the best parts of apps like Notion, ToDolist and Lofi. A productivity hub for academic and life purposes. Coming soon ;)', height: '8vh'},
+        {name: 'Productivity App', description: 'This app combines all the best parts of apps like Notion, ToDolist and Lofi. A productivity hub for academic and life purposes. Coming soon ;)', height: '20vh'},
+        {name: 'This Website!', description: 'ta da! :)', height: '8vh'},
         {name: 'Dungeonmania', description: 'This is a dungeon crawler game I created a few years ago for a uni course, to apply what I learnt about Object Oriented Programming in Java.', height: '14vh'},
         {name: 'VHDL Basics', description: 'A collation of all tasks from my COMP3222 VHDL class at UNSW. It includes fun stuff like a HiLo guessing game and a binary to hexadecimal switch/led system. All written in VHDL :)', height: '12vh'},
         {name: 'Wacky Microphone', description: 'This is a program that reads data from an i2s microphone and converts it into a .wav file. It has a UI where you can apply various effects to this .wav file. The audio processing is written in Java, the effects application written in C, and the UI is written in Node.js', height: '14vh'},
@@ -35,7 +35,10 @@ const Projects = () => {
     }));
 
     const Body = styled(Box) ({
-        justifyItems: 'center'
+        display: 'flex',
+        flexDirection: 'column',
+        justifyItems: 'center',
+        alignItems: 'center'
     });
 
     const Heading = styled('h2') ({
