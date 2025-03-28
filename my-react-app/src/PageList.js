@@ -6,6 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Testing from './components/Testing';
 
 const PageList = () => {
   return (
@@ -16,6 +17,7 @@ const PageList = () => {
         <Route path='/about' element={<About />} />
         <Route path='/skills' element={<Skills />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/testing' element={<Testing />} />
       </Routes>
     </>
   );
