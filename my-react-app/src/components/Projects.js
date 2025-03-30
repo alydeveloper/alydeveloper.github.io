@@ -49,6 +49,7 @@ const ProjectsBox = styled(Box) ({
     display: 'flex',
     flexDirection: 'row',
     height: '60vh',
+    justifyContent: 'space-between'
 });
 
 const Accordion = styled((props) => (
@@ -122,7 +123,7 @@ const Projects = () => {
                 <Title>My Projects!</Title>
                 <Heading>An overview of some of my projects!</Heading>
                 <ProjectsBox>
-                    <Box sx={{ width: '50%', height: '100%', overflowY: 'auto' }}>
+                    <Box sx={{ width: '45%', height: '75%', overflowY: 'auto', marginTop: '5%' }}>
                         {projects.map((project) =>
                             <Accordion sx={{ width: '100%', backgroundColor: '#E2EAFC', boxShadow: 'none', transition: 'background-color 1s ease-in-out', '&:hover': { backgroundColor: '#D7E3FC', borderRadius: '5px' }}} expanded={expanded === project.name} onChange={handleChange(project.name)}>
                                 <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
@@ -137,8 +138,8 @@ const Projects = () => {
                         )}
                     </Box>
                     <Box sx={{ width: '50%', height: '100%', position: 'relative' }}>
-                        <img src={Preview} style={{ width: '100%', height: '100%' }} ></img>
-                        {overlayImage !== null && <OverlayImage src={overlayImage} alt="Sample Project Image" />}
+                        <img src={Preview} style={{ width: '100%', height: '100%' }} alt='Project Preview' ></img>
+                        {overlayImage !== null && <OverlayImage src={overlayImage} alt='Sample Project' />}
                     </Box>
                 </ProjectsBox>
             </Body>
