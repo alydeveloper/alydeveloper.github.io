@@ -20,15 +20,16 @@ const Home = () => {
     const [clickedCard, setclickedCard] = useState(null);
 
     const cardData = [
-        { id: 1, name: 'Python', image: PythonImg, popupMessage: 'Python' },
-        { id: 2, name: 'C', image: CImg, popupMessage: 'C' },
-        { id: 3, name: 'Java', image: JavaImg, popupMessage: 'Java' },
-        { id: 4, name: 'React', image: ReactImg, popupMessage: 'React' },
-        { id: 5, name: 'HTML', image: HtmlImg, popupMessage: 'HTML' },
-        { id: 6, name: 'CSS', image: cssImg, popupMessage: 'CSS' },
-        { id: 7, name: 'Git', image: gitImg, popupMessage: 'Git' },
-        { id: 8, name: 'Godot', image: godotImg, popupMessage: 'Godot' },
-        { id: 9, name: 'Unreal Engine', image: UEImg, popupMessage: 'Unreal Engine' }
+        { id: 1, name: 'Python', image: PythonImg, popupMessage: 'COMP1531, COMP3331, COMP3141' },
+        { id: 2, name: 'C', image: CImg, popupMessage: 'COMP1511, COMP1521, COMP2521, COMP3231, ' },
+        { id: 3, name: 'Java', image: JavaImg, popupMessage: 'COMP2511, ' },
+        { id: 4, name: 'React', image: ReactImg, popupMessage: 'COMP6080, This Website' },
+        { id: 5, name: 'HTML', image: HtmlImg, popupMessage: 'COMP6080, This Website' },
+        { id: 6, name: 'CSS', image: cssImg, popupMessage: 'COMP6080, This Website' },
+        { id: 7, name: 'VHDL', image: UEImg, popupMessage: 'COMP3222, COMP3601, COMP3211, COMP4601' },
+        { id: 8, name: 'Git', image: gitImg, popupMessage: 'Every software project listed here!' },
+        { id: 9, name: 'Godot', image: godotImg, popupMessage: 'Coming soon ;)' },
+        { id: 10, name: 'Unreal Engine', image: UEImg, popupMessage: 'COMP4951, COMP4952, COMP4953' }
     ];
 
     const Body = styled(Box)({
@@ -84,8 +85,8 @@ const Home = () => {
                             </Card>
                             <Popup
                                 contentStyle={{
-                                    width : '10vw',
-                                    height : '10vw'
+                                    width : '40vw',
+                                    height : '50vh'
                                 }}
                                 open={clickedCard === card.id}
                                 closeOnDocumentClick
