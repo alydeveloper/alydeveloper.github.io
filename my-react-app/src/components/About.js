@@ -150,10 +150,12 @@ const Home = () => {
                                     <li>Working on my Virtual Reality themed thesis</li>
                                     <li>Excited to see where the rest of the year will take me!</li>
                                 </ul>
+                                <br></br>
+                                <br></br>
                             </TimelineOppositeContent>
                             <TimelineSeparator>
                             <TimelineDot variant='outlined' sx={{ borderColor: '#001845' }} />
-                            <TimelineConnector sx={{ backgroundColor: '#001845' }} />
+                            <TimelineConnector sx={{ backgroundImage: 'linear-gradient(to bottom, #001845, #E2EAFC)' }} />
                             </TimelineSeparator>
                             <TimelineContent sx={{ fontSize: '2.5vh', paddingTop: '0.5vh' }} >TWENTY TWENTY FIVE</TimelineContent>
                         </TimelineItem>
