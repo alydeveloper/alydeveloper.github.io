@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Header from './Header';
 import PythonImg from '../Images/Python.png';
 import CImg from '../Images/C.png';
 import JavaImg from '../Images/Java.webp';
@@ -15,7 +14,7 @@ import { Card, CardMedia, CardContent, Box, styled } from '@mui/material';
 import { useState } from 'react';
 import Popup from 'reactjs-popup';
 
-const Home = () => {
+const Skills = () => {
     const [hoveredCard, sethoveredCard] = useState(null);
     const [clickedCard, setclickedCard] = useState(null);
 
@@ -33,6 +32,7 @@ const Home = () => {
     ];
 
     const Body = styled(Box)({
+        minHeight: '100vh',
     });
 
     const CardHolders = styled(Box) ({
@@ -63,47 +63,44 @@ const Home = () => {
     });
 
     return (
-        <>
-            <Header />
-            <Body>
-                <Title>My Skills</Title>
-                <Heading>Languages • Frameworks • Tools</Heading>
-                <CardHolders> 
-                    {cardData.map((card) => (
-                        <>
-                            <Card sx={{ backgroundColor: '#D7E3FC', width : '10vw', height : '10vw', justifyContent : 'center', alignItems : 'center', display : 'flex', cursor: 'pointer'}} onMouseEnter={() => sethoveredCard(card.id)} onMouseLeave={() => sethoveredCard(null)} onClick={() => setclickedCard(card.id)}>
-                                {hoveredCard === card.id ?
-                                (<CardContent>{card.name}</CardContent>
-                                ) : (
-                                    <CardMedia
-                                        component='img'
-                                        height='100%'
-                                        image={card.image}
-                                        alt={card.name}
-                                    />
-                                )}
-                            </Card>
-                            <Popup
-                                contentStyle={{
-                                    width : '40vw',
-                                    height : '50vh'
-                                }}
-                                open={clickedCard === card.id}
-                                closeOnDocumentClick
-                                onClose={() => {
-                                    setclickedCard(null); 
-                                    sethoveredCard(null);
-                                }}
-                            >
-                                {card.popupMessage}
-                            </Popup>
-                        </>
-                    ))}
-                </CardHolders>
-            </Body>
-        </>
+        <Body>
+            <Title>My Skills</Title>
+            <Heading>Languages • Frameworks • Tools</Heading>
+            <CardHolders> 
+                {cardData.map((card) => (
+                    <>
+                        <Card sx={{ backgroundColor: '#D7E3FC', width : '10vw', height : '10vw', justifyContent : 'center', alignItems : 'center', display : 'flex', cursor: 'pointer'}} onMouseEnter={() => sethoveredCard(card.id)} onMouseLeave={() => sethoveredCard(null)} onClick={() => setclickedCard(card.id)}>
+                            {hoveredCard === card.id ?
+                            (<CardContent>{card.name}</CardContent>
+                            ) : (
+                                <CardMedia
+                                    component='img'
+                                    height='100%'
+                                    image={card.image}
+                                    alt={card.name}
+                                />
+                            )}
+                        </Card>
+                        <Popup
+                            contentStyle={{
+                                width : '40vw',
+                                height : '50vh'
+                            }}
+                            open={clickedCard === card.id}
+                            closeOnDocumentClick
+                            onClose={() => {
+                                setclickedCard(null); 
+                                sethoveredCard(null);
+                            }}
+                        >
+                            {card.popupMessage}
+                        </Popup>
+                    </>
+                ))}
+            </CardHolders>
+        </Body>
     )
 };
 
-export default Home;
+export default Skills;
 

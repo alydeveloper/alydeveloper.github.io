@@ -7,7 +7,7 @@ const Landing = () => {
     const navigate = useNavigate();
 
     React.useEffect(() => {
-        navigate('/home');
+        navigate('/portfolio');
     }, []);
 
     return <Container>

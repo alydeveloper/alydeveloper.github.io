@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './Header';
 
 import { useState } from 'react';
 import { Box, styled } from '@mui/material';
@@ -25,7 +24,8 @@ const Body = styled(Box) ({
     display: 'flex',
     flexDirection: 'column',
     justifyItems: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    minHeight: '100vh'
 });
 
 const Heading = styled('h2') ({
@@ -118,7 +118,6 @@ const Projects = () => {
     
     return (
         <>
-            <Header></Header>
             <Body>
                 <Title>My Projects!</Title>
                 <Heading>An overview of some of my projects!</Heading>

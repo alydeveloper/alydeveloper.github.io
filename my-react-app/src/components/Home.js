@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Header from './Header';
 import { useState } from 'react';
 import { Box, styled } from '@mui/material';
 import Popup from 'reactjs-popup';
@@ -10,6 +9,8 @@ import gmailLogo from '../Images/gmail.png';
 import resumeLogo from '../Images/resume.png';
 import githubLogo from '../Images/github.png';
 import Resume from '../documents/Alyssa_Lubrano_Resume.pdf';
+
+import { Element } from 'react-scroll';
 
 import { TypeAnimation } from 'react-type-animation';
 
@@ -21,7 +22,8 @@ const Home = () => {
         alignItems: 'center',
         fontSize: '5vh',
         flexDirection: 'column',
-        padding: '15vh 5vw'
+        padding: '15vh 5vw',
+        minHeight: '100vh'
     });
 
     const BlurbBox = styled(Box) ({
@@ -48,7 +50,6 @@ const Home = () => {
 
     return (
         <>
-            <Header />
             <FlexBox>
                 <BlurbBox>
                     <h1>Hello!<br></br>I'm Alyssa Lubrano,</h1>
