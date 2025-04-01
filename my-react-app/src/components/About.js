@@ -34,8 +34,8 @@ const Home = () => {
     });
 
     return (
-        <Body sx={{ marginTop: '5vh', minHeight: '100vh' }}>
-            <Box sx={{ width: '45%' }} >
+        <Body sx={{ marginTop: '5vh', minHeight: '100vh', position: 'relative' }}>
+            <Box sx={{ width: '45%', position: 'sticky', top: '3vh', alignSelf: 'start' }} >
                 <Heading>About Me!</Heading>
                 <Blurb>I am in my penultimate year of a Bachelor of Engineering degree (Computing) (Honours) at UNSW.
                     I am eager to learn everything I can from a company that’s backbone is the tech industry.
