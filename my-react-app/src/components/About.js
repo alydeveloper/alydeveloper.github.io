@@ -30,7 +30,8 @@ const Home = () => {
     const Body = styled(Box) ({
         display: 'flex',
         flexDirection: 'row',
-        margin: '3vw'
+        marginLeft: '5vw',
+        marginRight: '3vw'
     });
 
     return (

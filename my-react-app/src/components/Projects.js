@@ -23,33 +23,35 @@ import AddIcon from '@mui/icons-material/AddRounded';
 const Body = styled(Box) ({
     display: 'flex',
     flexDirection: 'column',
-    justifyItems: 'center',
-    alignItems: 'center',
     minHeight: '100vh'
 });
 
+const FlexBox = styled(Box) ({
+    textAlign: 'left',
+    width: '100%',
+    paddingLeft: '5vw',
+});
+
 const Heading = styled('h2') ({
-    padding: '0 5vw',
     fontSize: '2.5vh',
     display: 'flex',
-    justifyContent: 'center',
     marginTop: '1vh',
-    marginBottom: '5vh'
+    marginBottom: '3vh',
 });
 
 const Title = styled('h1') ({
     display: 'flex',
-    justifyContent: 'center',
     fontSize: '9vh',
     marginBottom: '1vh'
 });
 
 const ProjectsBox = styled(Box) ({
-    padding: '0 15vw',
+    paddingRight: '5vw',
+    paddingLeft: '3vw',
     display: 'flex',
     flexDirection: 'row',
     height: '60vh',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
 });
 
 const Accordion = styled((props) => (
@@ -84,7 +86,9 @@ const AccordionSummary = styled((props) => (
 }));
     
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
-    padding: theme.spacing(2),
+    paddingLeft: '3vh',
+    paddingTop: 0,
+    marginTop: 0
 }));
 
 const OverlayImage = styled('img')({
@@ -119,10 +123,12 @@ const Projects = () => {
     return (
         <>
             <Body>
-                <Title>My Projects!</Title>
-                <Heading>An overview of some of my projects!</Heading>
+                <FlexBox>
+                    <Title>My Projects!</Title>
+                    <Heading>An overview of some of my projects!</Heading>
+                </FlexBox>
                 <ProjectsBox>
-                    <Box sx={{ width: '45%', height: '75%', overflowY: 'auto', marginTop: '5%' }}>
+                    <Box sx={{ width: '55%', height: '90%', overflowY: 'auto', marginTop: '4vh' }}>
                         {projects.map((project) =>
                             <Accordion sx={{ width: '100%', backgroundColor: '#E2EAFC', boxShadow: 'none', transition: 'background-color 1s ease-in-out', '&:hover': { backgroundColor: '#D7E3FC', borderRadius: '5px' }}} expanded={expanded === project.name} onChange={handleChange(project.name)}>
                                 <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
@@ -133,10 +139,10 @@ const Projects = () => {
                                         {project.description}
                                     </Typography>
                                 </AccordionDetails>
-                        </Accordion>
+                            </Accordion>
                         )}
                     </Box>
-                    <Box sx={{ width: '50%', height: '100%', position: 'relative' }}>
+                    <Box sx={{ width: '38%', height: '100%', position: 'relative' }}>
                         <img src={Preview} style={{ width: '100%', height: '100%' }} alt='Project Preview' ></img>
                         {overlayImage !== null && <OverlayImage src={overlayImage} alt='Sample Project' />}
                     </Box>
